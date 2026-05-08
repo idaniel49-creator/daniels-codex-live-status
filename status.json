@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-05-08T04:15:00+03:00",
+  "source": {
+    "privateRepo": "idaniel49-creator/daniels-codex",
+    "visibility": "sanitized-public-status-only"
+  },
+  "summary": {
+    "projectCount": 7,
+    "openTaskCount": 0,
+    "actionRequired": true,
+    "actionRequiredText": "FarmVille is blocked until Daniel restores, copies, or locates the local FarmVillage workspace on the desktop."
+  },
+  "projects": [
+    {
+      "name": "Project Control Hub",
+      "status": "active",
+      "progress": 85,
+      "leadDevice": "desktop+laptop",
+      "notes": "Main coordination system for Daniel's Codex."
+    },
+    {
+      "name": "Codex Control App",
+      "status": "active",
+      "progress": 75,
+      "leadDevice": "desktop+laptop",
+      "notes": "Dashboard and mobile read-only view for project status."
+    },
+    {
+      "name": "FarmVille Base Game Modding",
+      "status": "blocked",
+      "progress": 35,
+      "leadDevice": "desktop+laptop",
+      "activeTask": "תקן Farmville לבייס גיים",
+      "taskId": "farmville-base-game-fix",
+      "liveStatus": {
+        "lastUpdated": "2026-05-08 06:12 +03:00",
+        "sourceDevice": "desktop",
+        "state": "blocked",
+        "summary": "Desktop readiness check completed. The local FarmVillage workspace was not found on the desktop.",
+        "blocker": "C:\\FarmVillage does not exist, and the launcher/proxy/game executable files were not found in the searched desktop locations.",
+        "nextAction": "Daniel needs to restore, copy, or locate the local FarmVillage workspace on the desktop. After that, the desktop can run the full base-game test again.",
+        "requiredDanielAction": "Locate or restore the local FarmVillage workspace on the desktop.",
+        "pullRequest": "https://github.com/idaniel49-creator/daniels-codex/pull/24"
+      }
+    },
+    {
+      "name": "Personal Memory Hub",
+      "status": "planning",
+      "progress": 5,
+      "leadDevice": "laptop+cloud",
+      "notes": "Private planning project. Details are intentionally hidden from the public feed."
+    },
+    {
+      "name": "One Person Company OS",
+      "status": "planning",
+      "progress": 5,
+      "leadDevice": "laptop",
+      "notes": "Business operating system project. Public details only."
+    },
+    {
+      "name": "Content and Sales Engine",
+      "status": "planning",
+      "progress": 0,
+      "leadDevice": "mobile+laptop",
+      "notes": "Content and sales workflow project. Public details only."
+    },
+    {
+      "name": "First Revenue Product",
+      "status": "planning",
+      "progress": 0,
+      "leadDevice": "desktop",
+      "notes": "First revenue product project. Public details only."
+    }
+  ],
+  "devices": [
+    {
+      "id": "desktop",
+      "name": "Desktop",
+      "role": "Execution, local app/game testing, heavy work",
+      "status": "blocked for FarmVille until FarmVillage workspace is restored"
+    },
+    {
+      "id": "laptop",
+      "name": "Laptop",
+      "role": "Coordination, review, safe merges, dashboard updates",
+      "status": "active"
+    },
+    {
+      "id": "mobile",
+      "name": "iPhone / Codex Cloud",
+      "role": "Status view and approvals",
+      "status": "read-only dashboard"
+    }
+  ]
+}
