@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
     "feedVersion":  2,
-    "generatedAt":  "2026-05-08T19:26:50+03:00",
+    "generatedAt":  "2026-05-08T21:04:10+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
                },
     "summary":  {
                     "projectCount":  7,
-                    "openTaskCount":  9,
+                    "openTaskCount":  8,
                     "approvalCount":  0,
                     "actionRequired":  false,
                     "actionRequiredText":  "No Daniel action is required right now."
@@ -30,10 +30,10 @@
                      },
                      {
                          "name":  "FarmVille Base Game Modding",
-                         "status":  "blocked",
-                         "progress":  35,
+                         "status":  "פעיל",
+                         "progress":  45,
                          "leadDevice":  "נייח + לפטופ",
-                         "notes":  "משימה פעילה: תקן Farmville לבייס גיים; סביבת המשחק ב-C:\\FarmVillage",
+                         "notes":  "מותקן בנייח; השרת המקומי עולה, ונשארת בדיקת Farm/Market/שמירה בתוך Flash",
                          "activeTask":  "FarmVille base game fix",
                          "taskId":  "farmville-base-game-fix",
                          "liveStatus":  {
@@ -119,19 +119,6 @@
                                    "line":  24
                                },
                                {
-                                   "text":  "לוודא שפרויקט FarmVille מופיע באפליקציה וב-Lovable מהאייפון",
-                                   "status":  "open",
-                                   "section":  "משימות חדשות",
-                                   "project":  "FarmVille Base Game Modding",
-                                   "priority":  "high",
-                                   "device":  "mobile-cloud",
-                                   "source":  "",
-                                   "taskId":  "",
-                                   "branch":  "",
-                                   "approvalRequired":  false,
-                                   "line":  25
-                               },
-                               {
                                    "text":  "לבדוק שהנייח כתב סיכום התקדמות FarmVille ל-SIDE_BY_SIDE_BOARD.md",
                                    "status":  "open",
                                    "section":  "משימות חדשות",
@@ -206,7 +193,7 @@
                         "id":  "desktop",
                         "name":  "Desktop",
                         "role":  "Execution, local app/game testing, heavy work",
-                        "status":  "blocked for FarmVille until FarmVillage workspace is restored"
+                        "status":  "active for FarmVille post-install visual testing"
                     },
                     {
                         "id":  "laptop",
