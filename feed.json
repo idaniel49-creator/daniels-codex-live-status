@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-05-08T07:35:18+03:00",
+    "generatedAt":  "2026-05-08T08:26:12+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
@@ -8,7 +8,7 @@
     "summary":  {
                     "projectCount":  7,
                     "actionRequired":  true,
-                    "actionRequiredText":  "דניאל צריך להחזיר, להעתיק או לאתר את סביבת FarmVillage בנייח, ואז הנייח יריץ שוב בדיקת משחק מלאה."
+                    "actionRequiredText":  "להעביר את סביבת C:\\FarmVillage מהלפטופ לנייח, להשאיר אותה בנתיב C:\\FarmVillage, ואז להריץ בנייח את בדיקת after-transfer."
                 },
     "projects":  [
                      {
@@ -34,14 +34,14 @@
                          "activeTask":  "FarmVille base game fix",
                          "taskId":  "farmville-base-game-fix",
                          "liveStatus":  {
-                                            "lastUpdated":  "2026-05-08 06:12 +03:00",
-                                            "sourceDevice":  "נייח",
+                                            "lastUpdated":  "2026-05-08 08:05 +03:00",
+                                            "sourceDevice":  "לפטופ",
                                             "state":  "חסום",
-                                            "summary":  "בדיקת מוכנות נייח הושלמה, וסביבת FarmVillage לא נמצאה במחשב.",
-                                            "blocker":  "C:\\FarmVillage לא קיים, ולא נמצאו קבצי ההפעלה או הפרוקסי במיקומי החיפוש.",
-                                            "nextAction":  "דניאל צריך להחזיר, להעתיק או לאתר את סביבת FarmVillage בנייח, ואז הנייח יריץ שוב בדיקת משחק מלאה.",
-                                            "requiredDanielAction":  "כן, לאתר או לשחזר את סביבת FarmVillage המקומית בנייח.",
-                                            "pullRequest":  "https://github.com/idaniel49-creator/daniels-codex/pull/24"
+                                            "summary":  "האבחון הושלם: סביבת FarmVillage הממודדת קיימת בלפטופ תחת C:\\FarmVillage, אך עדיין לא הותקנה או הועברה לנייח.",
+                                            "blocker":  "הנייח אינו יכול להריץ או לבדוק את FarmVille עד ש-C:\\FarmVillage יועתק או ישוחזר אליו מחוץ ל-GitHub.",
+                                            "nextAction":  "להעביר את סביבת C:\\FarmVillage מהלפטופ לנייח, להשאיר אותה בנתיב C:\\FarmVillage, ואז להריץ בנייח את בדיקת after-transfer.",
+                                            "requiredDanielAction":  "כן, לבחור דרך העברה מקומית/פרטית לסביבת FarmVillage בגודל כ-21.17GB מהלפטופ לנייח.",
+                                            "pullRequest":  "ייפתח לעדכון תוכנית ההעברה"
                                         }
                      },
                      {
