@@ -1,12 +1,15 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-05-08T09:03:21+03:00",
+    "feedVersion":  2,
+    "generatedAt":  "2026-05-08T10:16:13+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
                },
     "summary":  {
                     "projectCount":  7,
+                    "openTaskCount":  7,
+                    "approvalCount":  1,
                     "actionRequired":  true,
                     "actionRequiredText":  "להעביר או לשחזר את סביבת C:\\FarmVillage מהלפטופ לנייח בדרך מקומית/פרטית, ואז להריץ בנייח את בדיקת after-transfer."
                 },
@@ -14,16 +17,16 @@
                      {
                          "name":  "Project Control Hub",
                          "status":  "פעיל",
-                         "progress":  85,
+                         "progress":  88,
                          "leadDevice":  "נייח + לפטופ",
-                         "notes":  "פרוטוקול עבודה אוטונומי בין הנייח ללפטופ נוסף"
+                         "notes":  "נוסף מודל Unified Codex Workflow ו-feed ציבורי למשימות ואישורים"
                      },
                      {
                          "name":  "Codex Control App",
                          "status":  "פעיל",
-                         "progress":  75,
+                         "progress":  78,
                          "leadDevice":  "נייח + לפטופ",
-                         "notes":  "תצוגת פלאפון לקריאה בלבד מוזגה; ממתין לבדיקת פלאפון אמיתית"
+                         "notes":  "feed v2 מוכן עם tasks.open ו-approvals; השלב הבא הוא עדכון Lovable"
                      },
                      {
                          "name":  "FarmVille Base Game Modding",
@@ -73,6 +76,114 @@
                          "notes":  "Public status only. Detailed planning remains in the private workspace."
                      }
                  ],
+    "tasks":  {
+                  "source":  "05-Inbox/TASK_INBOX.md",
+                  "open":  [
+                               {
+                                   "text":  "לבדוק תצוגת פלאפון לקריאה בלבד בפלאפון",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "",
+                                   "priority":  "",
+                                   "device":  "",
+                                   "source":  "",
+                                   "taskId":  "",
+                                   "branch":  "",
+                                   "approvalRequired":  false,
+                                   "line":  22
+                               },
+                               {
+                                   "text":  "לבדוק שליחת משימה מהטלפון דרך Codex Cloud לנייח",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "",
+                                   "priority":  "",
+                                   "device":  "",
+                                   "source":  "",
+                                   "taskId":  "",
+                                   "branch":  "",
+                                   "approvalRequired":  false,
+                                   "line":  23
+                               },
+                               {
+                                   "text":  "תקן Farmville לבייס גיים",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "FarmVille Base Game Modding",
+                                   "priority":  "high",
+                                   "device":  "desktop",
+                                   "source":  "",
+                                   "taskId":  "farmville-base-game-fix",
+                                   "branch":  "",
+                                   "approvalRequired":  false,
+                                   "line":  24
+                               },
+                               {
+                                   "text":  "לוודא שפרויקט FarmVille מופיע באפליקציה וב-Lovable מהאייפון",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "FarmVille Base Game Modding",
+                                   "priority":  "high",
+                                   "device":  "mobile-cloud",
+                                   "source":  "",
+                                   "taskId":  "",
+                                   "branch":  "",
+                                   "approvalRequired":  false,
+                                   "line":  25
+                               },
+                               {
+                                   "text":  "לבדוק שהנייח כתב סיכום התקדמות FarmVille ל-SIDE_BY_SIDE_BOARD.md",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "FarmVille Base Game Modding",
+                                   "priority":  "high",
+                                   "device":  "laptop",
+                                   "source":  "",
+                                   "taskId":  "",
+                                   "branch":  "",
+                                   "approvalRequired":  false,
+                                   "line":  26
+                               },
+                               {
+                                   "text":  "לעדכן את Lovable כך שיציג משימות פתוחות ואישורים מתוך feed.json",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "Codex Control App",
+                                   "priority":  "high",
+                                   "device":  "laptop",
+                                   "source":  "laptop",
+                                   "taskId":  "lovable-feed-v2-dashboard",
+                                   "branch":  "codex/laptop-lovable-feed-v2",
+                                   "approvalRequired":  false,
+                                   "line":  27
+                               },
+                               {
+                                   "text":  "לבחור את First Revenue Product הראשון",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "",
+                                   "priority":  "",
+                                   "device":  "",
+                                   "source":  "",
+                                   "taskId":  "",
+                                   "branch":  "",
+                                   "approvalRequired":  false,
+                                   "line":  28
+                               }
+                           ]
+              },
+    "approvals":  [
+                      {
+                          "type":  "project-live-status",
+                          "text":  "כן, לספק לנייח את סביבת FarmVillage מחוץ ל-GitHub.",
+                          "project":  "FarmVille Base Game Modding",
+                          "priority":  "high",
+                          "device":  "נייח",
+                          "source":  "LIVE_STATUS.md",
+                          "taskId":  "farmville-base-game-fix",
+                          "pullRequest":  "https://github.com/idaniel49-creator/daniels-codex/pull/28"
+                      }
+                  ],
     "devices":  [
                     {
                         "id":  "desktop",
@@ -92,5 +203,13 @@
                         "role":  "Status view and approvals",
                         "status":  "read-only dashboard"
                     }
-                ]
+                ],
+    "workflow":  {
+                     "name":  "Daniel\u0027s unified Codex workflow",
+                     "commandPath":  "Phone -\u003e Codex Cloud -\u003e GitHub PR -\u003e Desktop Codex",
+                     "coordinatorPath":  "Laptop Codex reviews, merges safe PRs, and publishes public feed",
+                     "privateRepo":  "idaniel49-creator/daniels-codex",
+                     "publicFeed":  "https://raw.githubusercontent.com/idaniel49-creator/daniels-codex-live-status/main/feed.json",
+                     "lovableProject":  "https://lovable.dev/projects/4c4e8cca-aa95-4666-a771-1c63a0a16cca"
+                 }
 }
