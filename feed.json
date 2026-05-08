@@ -1,17 +1,17 @@
 {
     "schemaVersion":  1,
     "feedVersion":  2,
-    "generatedAt":  "2026-05-08T10:22:32+03:00",
+    "generatedAt":  "2026-05-08T10:26:55+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
                },
     "summary":  {
                     "projectCount":  7,
-                    "openTaskCount":  8,
-                    "approvalCount":  1,
-                    "actionRequired":  true,
-                    "actionRequiredText":  "להעביר או לשחזר את סביבת C:\\FarmVillage מהלפטופ לנייח בדרך מקומית/פרטית, ואז להריץ בנייח את בדיקת after-transfer."
+                    "openTaskCount":  9,
+                    "approvalCount":  0,
+                    "actionRequired":  false,
+                    "actionRequiredText":  "No Daniel action is required right now."
                 },
     "projects":  [
                      {
@@ -37,14 +37,14 @@
                          "activeTask":  "FarmVille base game fix",
                          "taskId":  "farmville-base-game-fix",
                          "liveStatus":  {
-                                            "lastUpdated":  "2026-05-08 08:52 +03:00",
-                                            "sourceDevice":  "נייח",
-                                            "state":  "חסום",
-                                            "summary":  "הנייח משך את main, קרא את תוכנית ההעברה, בדק ש-C:\\FarmVillage אינו קיים, וחיפש מקור FarmVillage מקומי/פרטי בכוננים ותיקיות המשתמש שהוגדרו. לא נמצא מקור תקין להעתקה.",
-                                            "blocker":  "אין סביבת C:\\FarmVillage בנייח ואין Launch-FarmVillage.ps1, לכן אי אפשר להריץ או לבדוק את FarmVille, Market או שמירה מקומית.",
-                                            "nextAction":  "להעביר או לשחזר את סביבת C:\\FarmVillage מהלפטופ לנייח בדרך מקומית/פרטית, ואז להריץ בנייח את בדיקת after-transfer.",
-                                            "requiredDanielAction":  "כן, לספק לנייח את סביבת FarmVillage מחוץ ל-GitHub.",
-                                            "pullRequest":  "https://github.com/idaniel49-creator/daniels-codex/pull/28"
+                                            "lastUpdated":  "2026-05-08 10:25 +03:00",
+                                            "sourceDevice":  "לפטופ",
+                                            "state":  "ממתין לנייח",
+                                            "summary":  "דניאל ביקש שהנייח יוריד את https://github.com/AcidCaos/farmvillage. הקישור אומת מהלפטופ עם git ls-remote, וה-HEAD הנוכחי הוא b3d3d782945af3754cadefbbbc60ee475c1dc811.",
+                                            "blocker":  "עדיין אין סביבת C:\\FarmVillage מאומתת בנייח; הצעד הבא הוא הורדת המקור החיצוני בנייח.",
+                                            "nextAction":  "הנייח ימשוך main, יעבוד על branch codex/desktop-download-acidcaos-farmvillage, וישכפל את ה-repo אל C:\\FarmVillage\\source\\farmvillage בלי למחוק או לדרוס קבצים קיימים.",
+                                            "requiredDanielAction":  "לא כרגע; להפעיל/לפתוח את Codex בנייח כדי שיאסוף את המשימה.",
+                                            "pullRequest":  "ייפתח על ידי הנייח אחרי ההורדה והאימות"
                                         }
                      },
                      {
@@ -163,12 +163,25 @@
                                    "section":  "משימות חדשות",
                                    "project":  "Project Control Hub",
                                    "priority":  "high",
-                                   "device":  "desktop",
+                                   "device":  "on-hold",
                                    "source":  "laptop",
                                    "taskId":  "desktop-pickup-phone-task-fallback",
                                    "branch":  "codex/desktop-pickup-phone-task-fallback",
                                    "approvalRequired":  false,
                                    "line":  28
+                               },
+                               {
+                                   "text":  "הורד בנייח את https://github.com/AcidCaos/farmvillage לתוך C:\\FarmVillage\\source\\farmvillage בלי למחוק או לדרוס קבצים קיימים",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "FarmVille Base Game Modding",
+                                   "priority":  "high",
+                                   "device":  "desktop",
+                                   "source":  "phone",
+                                   "taskId":  "farmvillage-download-acidcaos",
+                                   "branch":  "codex/desktop-download-acidcaos-farmvillage",
+                                   "approvalRequired":  false,
+                                   "line":  29
                                },
                                {
                                    "text":  "לבחור את First Revenue Product הראשון",
@@ -181,21 +194,12 @@
                                    "taskId":  "",
                                    "branch":  "",
                                    "approvalRequired":  false,
-                                   "line":  29
+                                   "line":  30
                                }
                            ]
               },
     "approvals":  [
-                      {
-                          "type":  "project-live-status",
-                          "text":  "כן, לספק לנייח את סביבת FarmVillage מחוץ ל-GitHub.",
-                          "project":  "FarmVille Base Game Modding",
-                          "priority":  "high",
-                          "device":  "נייח",
-                          "source":  "LIVE_STATUS.md",
-                          "taskId":  "farmville-base-game-fix",
-                          "pullRequest":  "https://github.com/idaniel49-creator/daniels-codex/pull/28"
-                      }
+
                   ],
     "devices":  [
                     {
