@@ -1,6 +1,6 @@
 {
     "schemaVersion":  1,
-    "generatedAt":  "2026-05-08T08:26:12+03:00",
+    "generatedAt":  "2026-05-08T09:03:21+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
@@ -8,7 +8,7 @@
     "summary":  {
                     "projectCount":  7,
                     "actionRequired":  true,
-                    "actionRequiredText":  "להעביר את סביבת C:\\FarmVillage מהלפטופ לנייח, להשאיר אותה בנתיב C:\\FarmVillage, ואז להריץ בנייח את בדיקת after-transfer."
+                    "actionRequiredText":  "להעביר או לשחזר את סביבת C:\\FarmVillage מהלפטופ לנייח בדרך מקומית/פרטית, ואז להריץ בנייח את בדיקת after-transfer."
                 },
     "projects":  [
                      {
@@ -34,14 +34,14 @@
                          "activeTask":  "FarmVille base game fix",
                          "taskId":  "farmville-base-game-fix",
                          "liveStatus":  {
-                                            "lastUpdated":  "2026-05-08 08:05 +03:00",
-                                            "sourceDevice":  "לפטופ",
+                                            "lastUpdated":  "2026-05-08 08:52 +03:00",
+                                            "sourceDevice":  "נייח",
                                             "state":  "חסום",
-                                            "summary":  "האבחון הושלם: סביבת FarmVillage הממודדת קיימת בלפטופ תחת C:\\FarmVillage, אך עדיין לא הותקנה או הועברה לנייח.",
-                                            "blocker":  "הנייח אינו יכול להריץ או לבדוק את FarmVille עד ש-C:\\FarmVillage יועתק או ישוחזר אליו מחוץ ל-GitHub.",
-                                            "nextAction":  "להעביר את סביבת C:\\FarmVillage מהלפטופ לנייח, להשאיר אותה בנתיב C:\\FarmVillage, ואז להריץ בנייח את בדיקת after-transfer.",
-                                            "requiredDanielAction":  "כן, לבחור דרך העברה מקומית/פרטית לסביבת FarmVillage בגודל כ-21.17GB מהלפטופ לנייח.",
-                                            "pullRequest":  "ייפתח לעדכון תוכנית ההעברה"
+                                            "summary":  "הנייח משך את main, קרא את תוכנית ההעברה, בדק ש-C:\\FarmVillage אינו קיים, וחיפש מקור FarmVillage מקומי/פרטי בכוננים ותיקיות המשתמש שהוגדרו. לא נמצא מקור תקין להעתקה.",
+                                            "blocker":  "אין סביבת C:\\FarmVillage בנייח ואין Launch-FarmVillage.ps1, לכן אי אפשר להריץ או לבדוק את FarmVille, Market או שמירה מקומית.",
+                                            "nextAction":  "להעביר או לשחזר את סביבת C:\\FarmVillage מהלפטופ לנייח בדרך מקומית/פרטית, ואז להריץ בנייח את בדיקת after-transfer.",
+                                            "requiredDanielAction":  "כן, לספק לנייח את סביבת FarmVillage מחוץ ל-GitHub.",
+                                            "pullRequest":  "https://github.com/idaniel49-creator/daniels-codex/pull/28"
                                         }
                      },
                      {
