@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
     "feedVersion":  2,
-    "generatedAt":  "2026-05-08T10:16:13+03:00",
+    "generatedAt":  "2026-05-08T10:22:32+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
                },
     "summary":  {
                     "projectCount":  7,
-                    "openTaskCount":  7,
+                    "openTaskCount":  8,
                     "approvalCount":  1,
                     "actionRequired":  true,
                     "actionRequiredText":  "להעביר או לשחזר את סביבת C:\\FarmVillage מהלפטופ לנייח בדרך מקומית/פרטית, ואז להריץ בנייח את בדיקת after-transfer."
@@ -111,7 +111,7 @@
                                    "section":  "משימות חדשות",
                                    "project":  "FarmVille Base Game Modding",
                                    "priority":  "high",
-                                   "device":  "desktop",
+                                   "device":  "on-hold",
                                    "source":  "",
                                    "taskId":  "farmville-base-game-fix",
                                    "branch":  "",
@@ -158,6 +158,19 @@
                                    "line":  27
                                },
                                {
+                                   "text":  "הנייח יאסוף משימה שנשלחה מהאייפון דרך GitHub במקום Codex Cloud התקוע, יקרא את UNIFIED_CODEX_WORKFLOW.md ויאשר שהוא מוכן לבצע משימות desktop מה-Inbox",
+                                   "status":  "open",
+                                   "section":  "משימות חדשות",
+                                   "project":  "Project Control Hub",
+                                   "priority":  "high",
+                                   "device":  "desktop",
+                                   "source":  "laptop",
+                                   "taskId":  "desktop-pickup-phone-task-fallback",
+                                   "branch":  "codex/desktop-pickup-phone-task-fallback",
+                                   "approvalRequired":  false,
+                                   "line":  28
+                               },
+                               {
                                    "text":  "לבחור את First Revenue Product הראשון",
                                    "status":  "open",
                                    "section":  "משימות חדשות",
@@ -168,7 +181,7 @@
                                    "taskId":  "",
                                    "branch":  "",
                                    "approvalRequired":  false,
-                                   "line":  28
+                                   "line":  29
                                }
                            ]
               },
