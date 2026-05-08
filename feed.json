@@ -1,7 +1,7 @@
 {
     "schemaVersion":  1,
     "feedVersion":  2,
-    "generatedAt":  "2026-05-08T10:26:55+03:00",
+    "generatedAt":  "2026-05-08T19:23:46+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
@@ -9,9 +9,9 @@
     "summary":  {
                     "projectCount":  7,
                     "openTaskCount":  9,
-                    "approvalCount":  0,
-                    "actionRequired":  false,
-                    "actionRequiredText":  "No Daniel action is required right now."
+                    "approvalCount":  1,
+                    "actionRequired":  true,
+                    "actionRequiredText":  "לבצע בדיקה ויזואלית ב-Basilisk: לוודא שהחווה נטענת בתוך Flash, לפתוח Market, ולעשות פעולה בסיסית לשמירה מקומית."
                 },
     "projects":  [
                      {
@@ -37,14 +37,14 @@
                          "activeTask":  "FarmVille base game fix",
                          "taskId":  "farmville-base-game-fix",
                          "liveStatus":  {
-                                            "lastUpdated":  "2026-05-08 10:25 +03:00",
-                                            "sourceDevice":  "לפטופ",
-                                            "state":  "ממתין לנייח",
-                                            "summary":  "דניאל ביקש שהנייח יוריד את https://github.com/AcidCaos/farmvillage. הקישור אומת מהלפטופ עם git ls-remote, וה-HEAD הנוכחי הוא b3d3d782945af3754cadefbbbc60ee475c1dc811.",
-                                            "blocker":  "עדיין אין סביבת C:\\FarmVillage מאומתת בנייח; הצעד הבא הוא הורדת המקור החיצוני בנייח.",
-                                            "nextAction":  "הנייח ימשוך main, יעבוד על branch codex/desktop-download-acidcaos-farmvillage, וישכפל את ה-repo אל C:\\FarmVillage\\source\\farmvillage בלי למחוק או לדרוס קבצים קיימים.",
-                                            "requiredDanielAction":  "לא כרגע; להפעיל/לפתוח את Codex בנייח כדי שיאסוף את המשימה.",
-                                            "pullRequest":  "ייפתח על ידי הנייח אחרי ההורדה והאימות"
+                                            "lastUpdated":  "2026-05-08 19:11 +03:00",
+                                            "sourceDevice":  "נייח",
+                                            "state":  "מותקן ומוכן לבדיקה",
+                                            "summary":  "הורדת נכסי WARC הסתיימה, הנכסים חולצו, והשרת המקומי עלה בהצלחה. C:\\FarmVillage\\Launch-FarmVillage.ps1 מריץ את farmvillagers_0.01a.exe, Basilisk נפתח, ו-http://127.0.0.1:5500/ מחזיר HTTP 200.",
+                                            "blocker":  "אין חסימת התקנה. עדיין לא אומתה בדיקה ידנית מלאה בתוך Flash של Farm/Market/שמירה דרך המסך.",
+                                            "nextAction":  "לבצע בדיקה ויזואלית ב-Basilisk: לוודא שהחווה נטענת בתוך Flash, לפתוח Market, ולעשות פעולה בסיסית לשמירה מקומית.",
+                                            "requiredDanielAction":  "אם חלון Basilisk פתוח, לבדוק שהחווה נטענת ויזואלית; הנייח ימשיך לתעד את תוצאות ה-Market והשמירה.",
+                                            "pullRequest":  "https://github.com/idaniel49-creator/daniels-codex/pull/35"
                                         }
                      },
                      {
@@ -199,7 +199,16 @@
                            ]
               },
     "approvals":  [
-
+                      {
+                          "type":  "project-live-status",
+                          "text":  "אם חלון Basilisk פתוח, לבדוק שהחווה נטענת ויזואלית; הנייח ימשיך לתעד את תוצאות ה-Market והשמירה.",
+                          "project":  "FarmVille Base Game Modding",
+                          "priority":  "high",
+                          "device":  "נייח",
+                          "source":  "LIVE_STATUS.md",
+                          "taskId":  "farmville-base-game-fix",
+                          "pullRequest":  "https://github.com/idaniel49-creator/daniels-codex/pull/35"
+                      }
                   ],
     "devices":  [
                     {
