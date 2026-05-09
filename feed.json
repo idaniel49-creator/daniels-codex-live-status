@@ -1,14 +1,14 @@
 {
     "schemaVersion":  1,
     "feedVersion":  2,
-    "generatedAt":  "2026-05-08T21:04:10+03:00",
+    "generatedAt":  "2026-05-09T18:43:48+03:00",
     "source":  {
                    "privateRepo":  "idaniel49-creator/daniels-codex",
                    "visibility":  "sanitized-public-status-only"
                },
     "summary":  {
                     "projectCount":  7,
-                    "openTaskCount":  8,
+                    "openTaskCount":  6,
                     "approvalCount":  0,
                     "actionRequired":  false,
                     "actionRequiredText":  "No Daniel action is required right now."
@@ -31,20 +31,20 @@
                      {
                          "name":  "FarmVille Base Game Modding",
                          "status":  "פעיל",
-                         "progress":  45,
+                         "progress":  60,
                          "leadDevice":  "נייח + לפטופ",
-                         "notes":  "מותקן בנייח; השרת המקומי עולה, ונשארת בדיקת Farm/Market/שמירה בתוך Flash",
+                         "notes":  "נבדק אוטומטית בנייח: המשחק עולה בתוך Flash ושמירה עודכנה, אבל חסר masterysigns/v1/masterysign_items.amf.gz",
                          "activeTask":  "FarmVille base game fix",
                          "taskId":  "farmville-base-game-fix",
                          "liveStatus":  {
-                                            "lastUpdated":  "2026-05-08 19:22 +03:00",
+                                            "lastUpdated":  "2026-05-09 18:32 +03:00",
                                             "sourceDevice":  "נייח",
-                                            "state":  "מותקן; משימת בדיקה נשלחה לנייח",
-                                            "summary":  "הורדת נכסי WARC הסתיימה, הנכסים חולצו, והשרת המקומי עלה בהצלחה. C:\\FarmVillage\\Launch-FarmVillage.ps1 מריץ את farmvillagers_0.01a.exe, Basilisk נפתח, ו-http://127.0.0.1:5500/ מחזיר HTTP 200.",
-                                            "blocker":  "אין חסימת התקנה. עדיין לא אומתה בדיקה ידנית מלאה בתוך Flash של Farm/Market/שמירה דרך המסך.",
-                                            "nextAction":  "הנייח יעבוד על farmville-post-install-visual-test, יוודא Farm בתוך Flash, Market ושמירה מקומית, ואז יפתח PR תיעוד בלבד.",
-                                            "requiredDanielAction":  "לא כרגע; אם הנייח מבקש אישור/צילום מסך ידני, לפעול לפי ההנחיה שלו.",
-                                            "pullRequest":  "ייפתח על ידי הנייח אחרי בדיקת Farm/Market/שמירה"
+                                            "state":  "בדיקה אוטומטית בוצעה; נמצא blocker נכס חסר",
+                                            "summary":  "הנייח מיזג את PR #38, משך את main, זיהה את משימת farmville-post-install-visual-test, והריץ את C:\\FarmVillage\\Launch-FarmVillage.ps1. farmvillagers_0.01a.exe ו-Basilisk רצים, http://127.0.0.1:5500/ מחזיר HTTP 200 עם הכותרת FarmVille, ונוצר צילום מסך מקומי שמראה את FarmVille בתוך Flash.",
+                                            "blocker":  "טעינת המשחק אינה נקייה. על המסך הופיעה שגיאת Failed to load config file עבור http://127.0.0.1:5500/masterysigns/v1/masterysign_items.amf.gz, ובדיקה ישירה החזירה HTTP 404.",
+                                            "nextAction":  "להמשיך בתוך אותה משימה ולתקן או לשחזר את נכס masterysigns/v1/masterysign_items.amf.gz, ואז להריץ שוב בדיקת Farm/Market/שמירה נקייה.",
+                                            "requiredDanielAction":  "לא כרגע.",
+                                            "pullRequest":  "ייפתח על ידי הנייח עם סיכום תיעוד/סטטוס בלבד"
                                         }
                      },
                      {
@@ -93,19 +93,6 @@
                                    "line":  22
                                },
                                {
-                                   "text":  "לבדוק שליחת משימה מהטלפון דרך Codex Cloud לנייח",
-                                   "status":  "open",
-                                   "section":  "משימות חדשות",
-                                   "project":  "",
-                                   "priority":  "",
-                                   "device":  "",
-                                   "source":  "",
-                                   "taskId":  "",
-                                   "branch":  "",
-                                   "approvalRequired":  false,
-                                   "line":  23
-                               },
-                               {
                                    "text":  "תקן Farmville לבייס גיים",
                                    "status":  "open",
                                    "section":  "משימות חדשות",
@@ -143,19 +130,6 @@
                                    "branch":  "codex/laptop-lovable-feed-v2",
                                    "approvalRequired":  false,
                                    "line":  27
-                               },
-                               {
-                                   "text":  "הנייח יאסוף משימה שנשלחה מהאייפון דרך GitHub במקום Codex Cloud התקוע, יקרא את UNIFIED_CODEX_WORKFLOW.md ויאשר שהוא מוכן לבצע משימות desktop מה-Inbox",
-                                   "status":  "open",
-                                   "section":  "משימות חדשות",
-                                   "project":  "Project Control Hub",
-                                   "priority":  "high",
-                                   "device":  "on-hold",
-                                   "source":  "laptop",
-                                   "taskId":  "desktop-pickup-phone-task-fallback",
-                                   "branch":  "codex/desktop-pickup-phone-task-fallback",
-                                   "approvalRequired":  false,
-                                   "line":  28
                                },
                                {
                                    "text":  "בדוק בנייח את FarmVillage אחרי ההתקנה: טעינת Farm בתוך Flash, פתיחת Market, ופעולה בסיסית שנשמרת מקומית",
